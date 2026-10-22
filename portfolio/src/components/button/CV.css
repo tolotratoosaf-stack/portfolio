@@ -1,0 +1,32 @@
+.cv-btn {
+  width: 180px;
+  display: inline-block;
+  padding-inline: 30px;
+  padding-block: 10px;
+  border: 1px solid rgb(59 130 246);
+  border-radius: 10px;
+  color: rgb(59 130 246);
+  cursor: pointer;
+  box-shadow: -3px 5px 0px rgba(59, 131, 246, 0.5);
+  transform: skew(20deg, -5deg);
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cv-btn:hover {
+  color: rgb(170, 203, 255);
+  transform: skew(20deg, -5deg);
+  box-shadow:
+    -3px 6px 0px rgb(59 130 246),
+    -6px 13px 0 rgba(59, 131, 246, 0.5),
+    -9px 20px 0 rgba(59, 131, 246, 0.3);
+}
+
+.cv-btn:active {
+  transform: skew(20deg, -5deg) translate(-3px, 6px);
+  box-shadow:
+    -1px 0px 0px rgb(59 130 246),
+    -4px 7px 0 rgba(59, 131, 246, 0.5),
+    -7px 14px 0 rgba(59, 131, 246, 0.3);
+}
